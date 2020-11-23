@@ -1,0 +1,1 @@
+You can read tutorial https://roytuts.com/angular-codeigniter-4-rest-api-mysql-crud-example/

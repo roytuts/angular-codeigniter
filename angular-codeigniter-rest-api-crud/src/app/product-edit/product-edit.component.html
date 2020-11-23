@@ -1,0 +1,26 @@
+<div *ngIf="product">
+  <h2>{{product.name | uppercase}} Details</h2>
+  <div>
+    <p>
+		Name: <input [(ngModel)]="product.name" placeholder="Product Name">
+    </p>
+	
+	<p>
+		Price: <input [(ngModel)]="product.price" placeholder="Product Price">
+    </p>
+	
+	<p>
+		Sale Price: <input [(ngModel)]="product.sale_price" placeholder="Product Sale Price">
+    </p>
+	
+	<p>
+		Sales Count: <input [(ngModel)]="product.sales_count" placeholder="Product Sales Count">
+    </p>
+	
+	<p>
+		Sale Date: <input [(ngModel)]="product.sale_date" placeholder="Product Sale Date">
+    </p>
+  </div>
+  <button (click)="goBack()">Go Back</button>
+  <button (click)="save()">Save</button>
+</div>
